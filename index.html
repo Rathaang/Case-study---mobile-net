@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Project 120 - 121</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="">
+        <ol>
+        <div class="test_image_and_result col-xs-12">
+            <h1 class="btn btn-info" id="heading">Google Lens VS. MobileNet Testing</h1>
+            <li class="col-sm-4 col-xs-12">
+                <center>
+                 <b id="images_id">Test Images - </b>
+                 <img src="WIN_20220201_17_20_53_Pro.jpg" class="img-responsive">
+                 <img src="WIN_20220201_17_21_04_Pro.jpg" class="img-responsive">
+                 <img src="WIN_20220201_17_21_07_Pro.jpg" class="img-responsive">
+                 <img src="WIN_20220201_17_21_17_Pro.jpg" class="img-responsive">
+                 <img src="WIN_20220201_17_21_27_Pro.jpg" class="img-responsive">
+                 <img src="WIN_20220201_17_21_32_Pro.jpg" class="img-responsive">
+                 <img src="WIN_20220201_17_21_40_Pro.jpg" class="img-responsive">
+                 <img src="WIN_20220201_17_21_46_Pro.jpg" class="img-responsive">
+                 <img src="WIN_20220201_17_21_49_Pro.jpg" class="img-responsive">
+                 <img src="WIN_20220201_17_21_55_Pro.jpg" class="img-responsive">
+                </center>
+            </li>
+
+        <h5 id="google_lens_result" class="col-sm-4 col-xs-12">
+            Output for <b>Google Lens</b> : 
+            <span></span>
+        </h5>
+        <h5 id="real_time_result" class="col-sm-4 col-xs-12">
+            Output for <b>MobileNet Model</b> : 
+            <span></span>
+        </h5>
+        <div id="conclusion">
+          <center>
+            <h4 id="heading_label">Ovrall Result  - </h4>
+            <hr>
+            <span></span>
+          </center>
+        </div>
+        <hr>
+        </div>
+        <br>
+        </ol>
+        <div class="copy_right_footer">
+            Developed by - Rathaang
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

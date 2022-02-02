@@ -1,0 +1,27 @@
+#heading
+{
+    font-size: 25px;
+    color: darkslategray;
+    float: center;
+}
+
+#heading_label
+{
+    margin-right: 20%;
+    color: whitesmoke;
+}
+
+#real_time_result
+{
+    color: darkslateblue;
+}
+
+#google_lens_result
+{
+    color: darkslateblue;
+}
+
+#images_id
+{
+    color: darkslateblue;
+}
